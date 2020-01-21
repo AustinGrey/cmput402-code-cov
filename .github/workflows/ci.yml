@@ -30,6 +30,7 @@ jobs:
     #       for test coverage reports
     - name: Run CodeCov report
       env:
+        # Using GitHub secrets to keep token safe
         CODECOV_TOKEN: ${{ secrets.ci_codecov }}
       run: |
         ./gradlew jacocoTestReport

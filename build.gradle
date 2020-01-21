@@ -1,7 +1,7 @@
 plugins {
     id 'com.github.johnrengelman.shadow' version '4.0.2',
     // TODO: Add jococo plugin
-    id: 'jacoco' version '0.8.5'
+    id 'jacoco' version '0.8.5'
 }
 
 group 'com.example.helloworld'

@@ -12,6 +12,6 @@ public class TestHelloWorldApplication {
         HelloWorldApplication app = new HelloWorldApplication();
 
         // Run
-        assertEquals(app.getName(), "hello-world")
+        assertEquals(app.getName(), "hello-world");
     }
 }

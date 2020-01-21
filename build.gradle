@@ -1,7 +1,7 @@
 plugins {
-    id 'com.github.johnrengelman.shadow' version '4.0.2',
+    id 'com.github.johnrengelman.shadow' version '4.0.2'
     // TODO: Add jococo plugin
-    id 'jacoco' version '0.8.5'
+    id 'jacoco'
 }
 
 group 'com.example.helloworld'
@@ -40,6 +40,9 @@ run {
 
 // TODO: Set jacoco version to be 0.8.5
 // TODO: Enable jacoco test report in xml format
+jacoco {
+    toolVersion = "0.8.5"
+}
 
 jacocoTestReport {
     reports {
